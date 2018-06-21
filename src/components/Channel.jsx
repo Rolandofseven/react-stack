@@ -2,16 +2,16 @@ import React from 'react';
 import {ListItem, Avatar} from 'material-ui';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
-class Message extends React.Component{
+class Channel extends React.Component{
     constructor(props){
         super(props)
     }
 
     render(){
         return (
-        <ListItem left>{this.props.message}</ListItem>
+        <ListItem left>{this.props.channel}</ListItem>
         )
     }
 }
 
-export default Message;
+export default Channel;
